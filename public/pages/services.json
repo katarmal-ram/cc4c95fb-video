@@ -1,199 +1,180 @@
-
 {
-  "meta": {
-    "title": "Brass Manufacturing Services - Ashapura Brass Industries",
-    "description": "Comprehensive brass manufacturing services from design to delivery"
-  },
   "hero": {
     "type": "video",
+    "title": "Precision Forging Solutions",
     "enabled": true,
-    "title": "Precision Manufacturing Services",
-    "subtitle": "Complete brass manufacturing solutions from concept to delivery",
-    "backgroundVideo": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/NL0L5N5Rgimkt8edi/videoblocks-authomatic-lathe-drill-the-thread-and-rounds-the-edges-of-the-part_seemoxrjtx__456bda19ebbb32c7b3b6e1208019deab__P1080.mp4?response-content-disposition=attachment%3Bfilename%3Dauthomatic-lathe-drill-the-thread-and-rounds-the-edges-of-the-part-SBV-327456926-preview.mp4",
-    "backgroundImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80"
+    "subtitle": "Expert custom forging services delivering high-quality brass, steel, and copper components since 1998",
+    "backgroundImage": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+    "backgroundVideo": "https://example.com/manufacturing-forging-process.mp4"
+  },
+  "meta": {
+    "title": "Forging Services - ABC Brass | Custom Metal Manufacturing",
+    "description": "Specialized forging manufacturer offering custom brass, steel, and copper components with six sigma quality standards"
   },
   "sections": {
+    "cta": {
+      "type": "cta",
+      "title": "Ready to Start Your Custom Forging Project?",
+      "enabled": true,
+      "subtitle": "Connect with our expert engineering team to transform your metal component requirements",
+      "primaryCTA": {
+        "text": "Request Quote",
+        "action": "/contact"
+      },
+      "secondaryCTA": {
+        "text": "Call Experts",
+        "action": "tel:+1-800-FORGING"
+      }
+    },
     "services": {
       "type": "services",
-      "enabled": true,
-      "title": "Our Manufacturing Services",
-      "subtitle": "Complete solutions from design to delivery",
       "items": [
         {
-          "id": "cnc-machining",
-          "title": "Precision CNC Machining",
-          "description": "State-of-the-art CNC machining services for complex brass components with tight tolerances and superior surface finish.",
+          "id": "cold-forging",
+          "image": "https://images.unsplash.com/photo-1581578017093-65e5a39c6b82",
+          "title": "Cold Forging Services",
+          "description": "Precision cold forging solutions for complex metal components with superior dimensional accuracy and surface finish. Our advanced techniques ensure minimal material waste and exceptional mechanical properties.",
           "capabilities": [
-            "Multi-axis CNC turning",
-            "High-precision milling",
-            "Thread cutting & tapping",
-            "Surface finishing",
-            "Tolerance ±0.001mm",
-            "24/7 production capability"
-          ],
-          "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=800&q=80"
+            "Brass Component Manufacturing",
+            "Steel Precision Forging",
+            "Complex Geometrical Designs",
+            "High-Volume Production",
+            "Tight Tolerance Capabilities"
+          ]
         },
         {
-          "id": "brass-casting",
-          "title": "Brass Casting",
-          "description": "Advanced casting processes for producing complex brass components with excellent dimensional accuracy and material properties.",
+          "id": "custom-metal-components",
+          "image": "https://images.unsplash.com/photo-1581578017093-65e5a39c6b83",
+          "title": "Custom Metal Component Manufacturing",
+          "description": "Tailored metal component solutions designed to meet your specific engineering requirements. We leverage our extensive infrastructure and expertise to deliver high-performance forged parts.",
           "capabilities": [
-            "Sand casting",
-            "Investment casting",
-            "Centrifugal casting",
-            "Pressure die casting",
-            "Custom alloy development",
-            "Pattern making & design"
-          ],
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+            "Client-Specific Design",
+            "Multi-Material Forging",
+            "Prototype Development",
+            "Small to Large Batch Production",
+            "Engineering Consultation"
+          ]
         },
         {
-          "id": "quality-assurance",
-          "title": "Quality Assurance & Testing",
-          "description": "Comprehensive quality control and testing services ensuring every component meets the highest industry standards.",
+          "id": "copper-forging",
+          "image": "https://images.unsplash.com/photo-1581578017093-65e5a39c6b84",
+          "title": "Copper Forging Expertise",
+          "description": "Specialized copper forging services delivering intricate and high-conductivity components for diverse industrial applications. Our advanced techniques ensure superior metallurgical properties.",
           "capabilities": [
-            "Dimensional inspection",
-            "Material testing",
-            "Pressure testing",
-            "Metallurgical analysis",
-            "ISO 9001:2015 certified",
-            "Chemical composition analysis"
-          ],
-          "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"
-        },
-        {
-          "id": "design-development",
-          "title": "Design & Development",
-          "description": "Complete engineering support from concept design to production-ready components using advanced CAD/CAM technology.",
-          "capabilities": [
-            "CAD/CAM design",
-            "Rapid prototyping",
-            "Finite element analysis",
-            "Material selection",
-            "Process optimization",
-            "Reverse engineering"
-          ],
-          "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=800&q=80"
-        },
-        {
-          "id": "surface-treatment",
-          "title": "Surface Treatment & Finishing",
-          "description": "Advanced surface treatment options to enhance appearance, durability, and performance of brass components.",
-          "capabilities": [
-            "Electroplating",
-            "Powder coating",
-            "Anodizing",
-            "Polishing & buffing",
-            "Chrome plating",
-            "Nickel plating"
-          ],
-          "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800&q=80"
-        },
-        {
-          "id": "assembly-packaging",
-          "title": "Assembly & Packaging",
-          "description": "Complete assembly services and custom packaging solutions to meet specific customer requirements.",
-          "capabilities": [
-            "Sub-assembly services",
-            "Component assembly",
-            "Custom packaging",
-            "Export packaging",
-            "Labeling & marking",
-            "Logistics support"
-          ],
-          "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80"
+            "Electrical Component Manufacturing",
+            "Heat Exchanger Parts",
+            "Precision Copper Forming",
+            "Advanced Metallurgical Techniques",
+            "Quality-Driven Production"
+          ]
         }
-      ]
+      ],
+      "title": "Our Comprehensive Forging Services",
+      "enabled": true,
+      "subtitle": "Delivering precision-engineered metal components across multiple industries"
     },
     "capabilities": {
       "type": "capabilities",
-      "enabled": true,
-      "title": "Manufacturing Capabilities",
-      "subtitle": "Advanced technology and expertise for superior results",
       "items": [
         {
           "id": "production-capacity",
-          "title": "Production Capacity",
-          "description": "High-volume production capabilities with flexible scheduling",
+          "title": "Manufacturing Infrastructure",
           "metrics": [
-            { "label": "Monthly Capacity", "value": "500,000 units" },
-            { "label": "Operating Hours", "value": "24/7 operation" },
-            { "label": "Lead Time", "value": "2-4 weeks" }
-          ]
+            {
+              "label": "Facility Size",
+              "value": "30,000+ sq ft"
+            },
+            {
+              "label": "Production Shifts",
+              "value": "24/7 Operations"
+            },
+            {
+              "label": "Annual Capacity",
+              "value": "500,000+ Components"
+            }
+          ],
+          "description": "State-of-the-art manufacturing facility equipped with advanced forging technologies and comprehensive production capabilities"
         },
         {
-          "id": "material-expertise",
-          "title": "Material Expertise",
-          "description": "Extensive knowledge of brass alloys and their applications",
+          "id": "technical-expertise",
+          "title": "Engineering Capabilities",
           "metrics": [
-            { "label": "Alloy Types", "value": "50+ grades" },
-            { "label": "Material Testing", "value": "Full certification" },
-            { "label": "Custom Alloys", "value": "Available" }
-          ]
+            {
+              "label": "Forging Technologies",
+              "value": "5+ Advanced Techniques"
+            },
+            {
+              "label": "Industry Experience",
+              "value": "25+ Years"
+            },
+            {
+              "label": "Custom Solutions",
+              "value": "100% Engineered Approach"
+            }
+          ],
+          "description": "Cutting-edge technical expertise delivering innovative and precise metal component solutions"
         },
         {
-          "id": "precision-standards",
-          "title": "Precision Standards",
-          "description": "Meeting the highest precision standards in the industry",
+          "id": "quality-standards",
+          "title": "Quality Assurance",
           "metrics": [
-            { "label": "Tolerance", "value": "±0.001mm" },
-            { "label": "Surface Finish", "value": "Ra 0.1μm" },
-            { "label": "Quality Rate", "value": "99.8%" }
-          ]
+            {
+              "label": "Precision Tolerance",
+              "value": "±0.01mm"
+            },
+            {
+              "label": "Quality Certification",
+              "value": "Six Sigma Certified"
+            },
+            {
+              "label": "Defect Rate",
+              "value": "<0.5%"
+            }
+          ],
+          "description": "Rigorous quality control processes ensuring exceptional precision and reliability in every component"
         }
-      ]
+      ],
+      "title": "Our Advanced Manufacturing Capabilities",
+      "enabled": true,
+      "subtitle": "Combining technological innovation with precision engineering"
     },
     "manufacturing-process": {
       "type": "manufacturing-process",
-      "enabled": true,
-      "title": "Our Manufacturing Process",
-      "subtitle": "From concept to delivery - precision at every step",
       "steps": [
         {
           "step": 1,
-          "title": "Design & Engineering",
-          "description": "Collaborative design process with advanced CAD/CAM technology and engineering analysis"
+          "title": "Client Consultation",
+          "description": "Comprehensive discussion of project requirements, material specifications, and performance expectations"
         },
         {
           "step": 2,
-          "title": "Material Selection",
-          "description": "Selecting the optimal brass alloy for your specific application requirements"
+          "title": "Design & Engineering",
+          "description": "Detailed design analysis, material selection, and prototype development using advanced CAD/CAM technologies"
         },
         {
           "step": 3,
-          "title": "Precision Manufacturing",
-          "description": "Advanced machining and casting using state-of-the-art CNC equipment"
+          "title": "Forging Preparation",
+          "description": "Material preparation, tooling setup, and precision equipment calibration for optimal manufacturing conditions"
         },
         {
           "step": 4,
-          "title": "Quality Control",
-          "description": "Rigorous testing and inspection at every stage with certified procedures"
+          "title": "Precision Forging",
+          "description": "Executing forging processes with advanced techniques, ensuring dimensional accuracy and material integrity"
         },
         {
           "step": 5,
-          "title": "Finishing & Assembly",
-          "description": "Professional finishing treatments and assembly services as required"
+          "title": "Quality Inspection",
+          "description": "Comprehensive quality testing using advanced metrology equipment to validate component specifications"
         },
         {
           "step": 6,
           "title": "Delivery & Support",
-          "description": "Timely delivery with comprehensive documentation and ongoing support"
+          "description": "Carefully packaged component delivery with ongoing technical support and continuous improvement consultation"
         }
-      ]
-    },
-    "cta": {
-      "type": "cta",
+      ],
+      "title": "Our Manufacturing Methodology",
       "enabled": true,
-      "title": "Ready to Start Your Project?",
-      "subtitle": "Let our experienced team help you bring your component requirements to life with precision and excellence.",
-      "primaryCTA": {
-        "text": "Contact Our Experts",
-        "action": "/contact"
-      },
-      "secondaryCTA": {
-        "text": "Free Consultation",
-        "action": "tel:+91-288-2710234"
-      }
+      "subtitle": "A systematic approach delivering exceptional metal components"
     }
   }
 }
