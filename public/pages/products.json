@@ -1,141 +1,114 @@
-
 {
-  "meta": {
-    "title": "Brass Products - Ashapura Brass Industries",
-    "description": "Comprehensive range of precision brass components for automotive, pneumatic, aerospace, and hydraulic applications"
-  },
   "hero": {
     "type": "image",
+    "title": "Precision Forged Components",
     "enabled": true,
-    "title": "Precision Brass Product Range",
-    "subtitle": "High-quality components for critical applications",
-    "backgroundImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80"
+    "subtitle": "High-Quality Brass, Steel, and Copper Forged Parts for Industrial Applications",
+    "backgroundImage": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2"
+  },
+  "meta": {
+    "title": "ABC Brass | Industrial Forging Solutions | Custom Metal Components",
+    "description": "Leading manufacturer of precision forged brass, steel, and copper components. Custom solutions for diverse industrial applications since 1998."
+  },
+  "products": {
+    "categories": [
+      {
+        "id": "brass-components",
+        "name": "Brass Forged Parts",
+        "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+        "products": [
+          {
+            "id": "brass-valve-components",
+            "name": "Brass Valve Components",
+            "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+            "description": "Precision-engineered brass valve components for high-performance industrial applications",
+            "applications": [
+              "Hydraulic Systems",
+              "Pneumatic Equipment",
+              "Plumbing Systems",
+              "HVAC Installations"
+            ],
+            "specifications": [
+              "Material: High-Grade Brass Alloy",
+              "Tolerance: ±0.01mm",
+              "Temperature Range: -40°C to 200°C",
+              "Pressure Rating: Up to 6000 PSI"
+            ]
+          },
+          {
+            "id": "brass-electrical-connectors",
+            "name": "Brass Electrical Connectors",
+            "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+            "description": "High-conductivity brass electrical connectors for reliable electrical connections",
+            "applications": [
+              "Electrical Panels",
+              "Power Distribution",
+              "Telecommunications",
+              "Industrial Electronics"
+            ],
+            "specifications": [
+              "Conductivity: 95% IACS",
+              "Corrosion Resistance: Excellent",
+              "Size Range: 2mm to 50mm",
+              "Certification: ISO 9001:2015"
+            ]
+          }
+        ],
+        "description": "Premium brass forged components designed for precision and durability in critical industrial applications"
+      },
+      {
+        "id": "steel-components",
+        "name": "Steel Forged Parts",
+        "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+        "products": [
+          {
+            "id": "steel-automotive-parts",
+            "name": "Steel Automotive Components",
+            "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2",
+            "description": "High-strength steel forged parts for automotive and mechanical engineering",
+            "applications": [
+              "Automotive Transmission",
+              "Heavy Machinery",
+              "Agricultural Equipment",
+              "Construction Vehicles"
+            ],
+            "specifications": [
+              "Material: Alloy Steel",
+              "Tensile Strength: Up to 1200 MPa",
+              "Heat Treatment: Available",
+              "Hardness: HRC 40-55"
+            ]
+          }
+        ],
+        "description": "Robust steel forged components engineered for maximum performance and reliability"
+      }
+    ],
+    "categoriesTitle": "Our Product Categories",
+    "allProductsTitle": "Complete Product Range",
+    "categoriesSubtitle": "Find the Perfect Forged Solution for Your Specific Requirements",
+    "allProductsSubtitle": "Comprehensive Precision Forging Solutions Across Multiple Industries"
   },
   "sections": {
-    "products": {
-      "type": "products",
-      "enabled": true,
-      "title": "Product Categories",
-      "subtitle": "Comprehensive range of precision brass components",
-      "items": []
-    },
     "cta": {
       "type": "cta",
+      "title": "Need Custom Forged Components?",
       "enabled": true,
-      "title": "Need a Custom Quote?",
-      "subtitle": "Our engineering team is ready to help you with custom solutions for your specific requirements.",
+      "subtitle": "Our engineering team is ready to develop tailored solutions for your specific project requirements",
       "primaryCTA": {
         "text": "Request Custom Quote",
         "action": "/contact"
       },
       "secondaryCTA": {
         "text": "Technical Support",
-        "action": "tel:+91-288-2710234"
+        "action": "tel:+1-800-FORGING"
       }
+    },
+    "products": {
+      "type": "products",
+      "items": [],
+      "title": "Precision Forged Product Range",
+      "enabled": true,
+      "subtitle": "Six Sigma Certified Manufacturing with Uncompromising Quality Standards"
     }
-  },
-  "products": {
-    "allProductsTitle": "Complete Brass Product Range",
-    "allProductsSubtitle": "Precision-engineered components for diverse industrial applications",
-    "categoriesTitle": "Browse Product Categories",
-    "categoriesSubtitle": "Find the perfect brass components for your specific industry needs",
-    "categories": [
-      {
-        "id": "brass-fittings",
-        "name": "Brass Fittings",
-        "description": "High-precision brass fittings for plumbing and industrial applications",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
-        "products": [
-          {
-            "id": "brass-elbow",
-            "name": "Brass Elbow Fittings",
-            "description": "Precision-machined brass elbow fittings for directional piping connections",
-            "specifications": ["Size: 1/4\" to 4\"", "Material: CZ121 Brass", "Thread: BSP/NPT"],
-            "applications": ["Plumbing", "Hydraulic Systems", "Gas Distribution"],
-            "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80"
-          },
-          {
-            "id": "brass-tee",
-            "name": "Brass Tee Fittings",
-            "description": "T-junction fittings for branching pipe connections",
-            "specifications": ["Size: 1/4\" to 3\"", "Material: CZ121 Brass", "Pressure: Up to 16 bar"],
-            "applications": ["Pipeline Networks", "Distribution Systems", "HVAC"],
-            "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80"
-          }
-        ]
-      },
-      {
-        "id": "brass-valves",
-        "name": "Brass Valves",
-        "description": "Precision brass valves for flow control applications",
-        "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80",
-        "products": [
-          {
-            "id": "brass-ball",
-            "name": "Brass Ball Valves",
-            "description": "Quarter-turn ball valves for reliable flow control",
-            "specifications": ["Size: 1/2\" to 4\"", "Material: CW617N Brass", "Working Pressure: 40 bar"],
-            "applications": ["Water Systems", "Gas Lines", "Industrial Processes"],
-            "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=400&q=80"
-          },
-          {
-            "id": "brass-gate",
-            "name": "Brass Gate Valves",
-            "description": "Linear motion valves for on/off control",
-            "specifications": ["Size: 1/2\" to 6\"", "Material: CC754S Brass", "Temperature: -20°C to 180°C"],
-            "applications": ["Water Distribution", "Steam Lines", "Chemical Processing"],
-            "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=400&q=80"
-          }
-        ]
-      },
-      {
-        "id": "machined-components",
-        "name": "Machined Components",
-        "description": "Custom CNC machined brass components to specification",
-        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=600&q=80",
-        "products": [
-          {
-            "id": "brass-flanges",
-            "name": "Brass Flanges",
-            "description": "Precision flanges for pipe connections and equipment mounting",
-            "specifications": ["Size: 1/2\" to 12\"", "Standards: ANSI, DIN, JIS", "Material: Various Brass Alloys"],
-            "applications": ["Pipe Connections", "Pressure Vessels", "Marine Applications"],
-            "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=400&q=80"
-          },
-          {
-            "id": "brass-bushings",
-            "name": "Brass Bushings",
-            "description": "Precision sleeve bearings and bushings",
-            "specifications": ["Inner Dia: 5mm to 200mm", "Material: CuZn39Pb3", "Tolerance: ±0.02mm"],
-            "applications": ["Bearing Applications", "Automotive Systems", "Machinery"],
-            "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=400&q=80"
-          }
-        ]
-      },
-      {
-        "id": "electrical-components",
-        "name": "Electrical Components",
-        "description": "Brass electrical components for reliable connections",
-        "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=600&q=80",
-        "products": [
-          {
-            "id": "brass-terminals",
-            "name": "Brass Terminals",
-            "description": "High-conductivity brass electrical terminals",
-            "specifications": ["Current Rating: 10A to 250A", "Material: CuZn37", "Finish: Nickel Plated"],
-            "applications": ["Control Panels", "Switchboards", "Electronics"],
-            "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=400&q=80"
-          },
-          {
-            "id": "cable-glands",
-            "name": "Brass Cable Glands",
-            "description": "Waterproof cable entry and strain relief solutions",
-            "specifications": ["Thread: M12 to M63", "Material: CW617N Brass", "IP Rating: IP68"],
-            "applications": ["Marine Equipment", "Industrial Electronics", "Outdoor Installations"],
-            "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=400&q=80"
-          }
-        ]
-      }
-    ]
   }
 }
